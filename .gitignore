@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Large data and models
+data/**/*.pkl
+data/dataset/*.csv
+data/dataset/*.xlsx
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Backups
+app_monolith_backup.py
